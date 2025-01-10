@@ -21,7 +21,7 @@ function App() {
       ))}
       <button
         onClick={() => setVal(val.filter(item => item.name === "Raju" ? item.age = 26 : item))}
-        className="px-2 py-1 bg-blue-500 text-zinc-100 rounded mt-2"
+        className="px-2 py-1 bg-blue-500 text-zinc-100 rounded mt-3"
       >
         Add
       </button>
